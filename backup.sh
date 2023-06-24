@@ -1,7 +1,7 @@
-#! /bin/bash
+#! /usr/bin/bash
 #created by taqwa
 cd /srv/samba/taqwa_201911773
-git add .
+/usr/bin/git add .
 git commit -m "from samba"
 git push origin master >> /var/log/taqwa.log 2>&1
 if [ $? -eq 0 ]
